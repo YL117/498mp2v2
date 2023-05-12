@@ -18,5 +18,5 @@ def post_seed():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=80)
-    print("App running on 0.0.0.0:80")
+    app.run(host="0.0.0.0", port=5000)
+    print("App running on 0.0.0.0:5000")
