@@ -13,7 +13,7 @@ def get_seed():
 
 @app.route("/", methods=["POST"])
 def post_seed():
-    subprocess.Popen(["python", "stress_cpu.py"])
+    subprocess.Popen(["python3", "stress_cpu.py"])
     return "", 200
 
 
